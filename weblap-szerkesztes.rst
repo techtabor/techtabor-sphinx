@@ -46,5 +46,5 @@ Feltöltés
 
 Amikor a ``git commit`` paranccsal elmentesz valamit, majd a ``git push`` paranccsal feltöltöd azt, egy "git hook" automatikusan legenerálja és publikálja a weboldalt.
 
-A weboldal a `www.miklosdanka.com/techtabor <www.miklosdanka.com/techtabor>`_ oldalon érhető el ezen szöveg írásakor (2016-09-03).
+A weboldal a `www.miklosdanka.com/techtabor <http://www.miklosdanka.com/techtabor>`_ oldalon érhető el ezen szöveg írásakor (2016-09-03).
 
