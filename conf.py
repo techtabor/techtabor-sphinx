@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'A Gondolkodás Öröme - Techtábor'
+project = u'Techtábor'
 copyright = u'2016, Szűcs Gábor, Danka Miklós'
 
 # The version info for the project you're documenting, acts as replacement for
