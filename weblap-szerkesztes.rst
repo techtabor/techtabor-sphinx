@@ -1,4 +1,4 @@
-A Dokumentáció Szerkesztése
+A weblap szerkesztése
 ==========================================
 
 Telepítés első alkalommal
