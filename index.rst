@@ -31,18 +31,6 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
-   overview
-   inventory
-   matlab-intro
-   matlab-reference
-   toolkit-setup
-   toolkit-motors
-   toolkit-sensors
-   toolkit-motors-reference
-   toolkit-sensors-reference
-   pid
-   project
-   faq
    weblap-szerkesztes
 
 
