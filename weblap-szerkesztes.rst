@@ -11,10 +11,10 @@ Az alábbi intstrukciók Unix alapú rendszerekre vonatkoznak (Linuxra és Macre
 Sphinx
 ~~~~~~
 
-A Sphinxet csak akkor kell telepítened, ha a saját gépeden is szeretnéd tudni generálni a dokumentációt. Ha csak szerkeszteni szeretnéd, akkor nincs rá szükséged: a weblap maga legenerálja azt.
+A Sphinxet csak akkor kell telepítened, ha a saját gépeden is szeretnéd tudni generálni a dokumentációt. Ha csak szerkeszteni szeretnéd, akkor nincs rá szükséged: a szerver maga legenerálja azt.
 
 #. Telepítsd a Sphinx programot: `link <http://sphinx-doc.org/latest/install.html>`_
-#. Telepítsd a Sphinx stílust: `link <https://github.com/snide/sphinx_rtd_theme`_
+#. Telepítsd a Sphinx stílust: `link <https://github.com/snide/sphinx_rtd_theme>`_
 
 Forráskód
 ~~~~~~~~~
