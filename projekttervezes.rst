@@ -29,7 +29,7 @@ Sarkcsillag ("North Star")
 
 Az `északi sarkcsillag <https://en.wikipedia.org/wiki/Pole_star>` egy fix pont az égen: míg az éjszaka során a csillagok elmozdulni látszanak a Föld forgása miatt, a sarkcsillag látszólag egy pontban áll, minden egyéb mozgás ellenére. Ezért (volt) olyan hasznos a tengeri navigációban: akármerre is sodort a tenger vagy fújt éppen a szél, bátran hajózhattál a sarkcsillag felé.
 
-A projekttervek definiálásakor a sarkcsillagon a projekted távlati célját értjük. Mi a probléma amit megcélzol? Miért fontos megoldani? Mi a megoldási javaslatod? Miért fog működni? Kik fogják használni? 
+A projekttervek definiálásakor a sarkcsillagon a projekted távlati célját értjük. Mi a probléma amit megcélzol? Miért fontos megoldani? Mi a megoldási javaslatod? Miért fog működni? Kik fogják használni? Mikor tekinthető a projekt sikeresnek?
 
 A sarkcsillag megfogalmazása segít letisztázni, hogy mit szeretnél elérni:
 
