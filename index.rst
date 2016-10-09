@@ -31,7 +31,7 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
-   projektvezetes
+   projekttervezes
    weblap-szerkesztes
 
 
