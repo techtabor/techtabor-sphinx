@@ -125,5 +125,5 @@ Ez rajtad múlik! Én a következő kérdések alapján döntenék:
 
 A projektek
 ------------------------------------------------
-A projekt koncepciókat írjátok is le, majd osszátok meg őket a csoporttal a `közös google drive mappánkban <https://drive.google.com/drive/folders/0B4CEjXzOjZEldlBZaUtORXh6dDg>`.
+A projekt koncepciókat írjátok is le, majd osszátok meg őket a csoporttal a `közös google drive mappánkban <https://drive.google.com/drive/folders/0B4CEjXzOjZEldlBZaUtORXh6dDg>`_.
 
