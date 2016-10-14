@@ -23,9 +23,9 @@ A techtábor
 
 Tehát akkor miket is fogunk tanulni?
 
-1. Hogyan találjunk problémákat?
-2. Hogyan találjunk rájuk működő megoldásokat?
-3. Hogyan valósítsuk meg azokat az ötleteket?
+#. Hogyan találjunk problémákat?
+#. Hogyan találjunk rájuk működő megoldásokat?
+#. Hogyan valósítsuk meg azokat az ötleteket?
 
 Ezek főleg gondolkodásmódok, és kevésbé konkrét technikák (habár azokból is van bőven). Gondolkodásmódokat pedig szinte csak gyakorlás és felfedezés útján lehet megtanulni/felfedezni - legfeljebb gyorsítani lehet mentorok segítségével - ezért ez egy gyakorlati tábor lesz, és nektek is valami valós problémát kell majd találnotok majd azt teljességében megvalósítani.
 
@@ -52,7 +52,7 @@ Az egyik példám a Codecademy. Sims nem tudott programozni, és nem bírt a kö
 
 .. note:: Most nézz utána a kedvenc cégednek vagy projektednek: hogyan kezdődött? Példák: Google, Facebook, Scratch, Tesla, SpaceX, Palantir, Snapchat, Prezi, Apple (iPod, iPhone), Wiki, Quora, PayPal. Próbáld meg szétválasztani a problémát, a megoldást, és a megvalósítást!
 
-Egy másik példa a Tesla. Elon Musk egy ismert, mindenkit érintő problémát vett elő: a globális felmelegedést és a potenciális katasztrófát amit a fosszilis üzemanyagok felélése hozna. Erre talált ki egy kreatív megoldást: csökkentsük drasztikusan a fosszilis üzemanyagok felhasználását úgy, hogy elektromos autókra állunk át az *egész világon.* Ez persze egy méretes feladat, úgyhogy egy sok lépésből álló tervet dolgozott ki: ezen az oldalon (link to be added) elolvashatjátok a részleteket - nagyon izgalmas és tanulágos. A rövid verzió az, hogy luxus elektromos autókat kezdett gyártani, hogy az így befolyó összegbúl felgyorsíthassa az elektromos motorok és elemek kutatását, és egyre olcsóbban adhasson el autókat. Végül a találmányait ingyenesen elérhetővé tette, hogy az összes autós cég átállhasson az elektromos autók gyártására. Egyelőre jól halad :)
+Egy másik példa a Tesla. Elon Musk egy ismert, mindenkit érintő problémát vett elő: a globális felmelegedést és a potenciális katasztrófát amit a fosszilis üzemanyagok felélése hozna. Erre talált ki egy kreatív megoldást: csökkentsük drasztikusan a fosszilis üzemanyagok felhasználását úgy, hogy elektromos autókra állunk át az *egész világon.* Ez persze egy méretes feladat, úgyhogy egy sok lépésből álló tervet dolgozott ki: `ezen az oldalon <http://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html>`_ elolvashatjátok a részleteket - nagyon izgalmas és tanulágos. A rövid verzió az, hogy luxus elektromos autókat kezdett gyártani, hogy az így befolyó összegbúl felgyorsíthassa az elektromos motorok és elemek kutatását, és egyre olcsóbban adhasson el autókat. Végül a találmányait ingyenesen elérhetővé tette, hogy az összes autós cég átállhasson az elektromos autók gyártására. Egyelőre jól halad :)
 
 
 
@@ -83,12 +83,12 @@ Fontos, hogy a hasznosságot ne keverjétek össze a pénzzé tevéssel ("moneti
 Kis példaprojektek a közeli köreinkből
 ------------------------------------------------
 
-- Preferenciamátrix. Egy beszélgetés során észrevettem, hogy nem tiszták a saját preferenciáim. Például ha lakást választok, mik a számomra legfontosabb szempontok? Ugyanebben a beszélgetésben egy megoldás is előkerült: az úgynevezett preferenciamátrix. Ebben páronként hasonlíthatod össze az elemeket, és az eredményből egy sokkal valósabb, és általában meglepő listát kapsz. A webapp elérhető `itt <http://www.miklosdanka.com/preference-matrix>`_.
-- MaMuT daloskönyv. A MaMuT nyári matektáborban az egyik táborzáró esemény a tábortűz. Ehhez mindig papíron osztottuk a szövegkönyveket, de ennek sok hátránya volt: sok papírt pazarolt, nehéz volt frissíteni a tartalmat, nehéz volt gyorsan megtalálni a dalokat, nehéz volt sötátben olvasni azt, stb. Úgyhogy Nikházy Laci csinált egy daloskönyv weboldalt, ami offline elérhető volt a gyerekeknek az okostelefonjaikon.
-- Barkochbatörténetek. A matektáborokban barkochbatörténeteket mesélünk. Itt két probléma is felmerül: nem tudom, hogy melyik történetet ismeri már a szoba 2) nem ismerem a barkochbatörténeteket. Úgyhogy készítettem egy appot, amin követhetem a történeteket, a megoldásokat, és azt is, hogy ki melyik történetet ismeri.
-- Tar Zoli: Lajos bácsi állatkertje. Az egyik gyerek a Beluga matekcsoportban észrevette, hogy nagyon sok állatbecenév létezik már, de nem világos, hogy kihez mi tartozik. Úgyhogy csinált egy kis játékot, amiben minden állat és a hozzájuk tartozó emberek szerepelnek.
-- Tábori időpontok. A táborvezetők igyekeznek úgy beosztani a hétvégéket a tábori csoportok között, hogy minél kevesebb gyerek hiányozzon. Ez eddig egy nagyon manuális feladat volt, úgyhogy írtam egy programot, ami az összes esetet végignézi. Ez hasznos a táborvezetőknek, mert gyorsabb, és mert jobb eredményeket kapunk (azaz kevesebb hiányzó lesz).
-- Techtábor. Maga a techtábor is egy ilyen projekt, habár a megoldás nem közvetlenül technológiai, hanem inkább oktatási és szervezési. A megoldandó problémát az előbb beszéltük át: ilyen hasznos készítését nem oktatják.
+* Preferenciamátrix. Egy beszélgetés során észrevettem, hogy nem tiszták a saját preferenciáim. Például ha lakást választok, mik a számomra legfontosabb szempontok? Ugyanebben a beszélgetésben egy megoldás is előkerült: az úgynevezett preferenciamátrix. Ebben páronként hasonlíthatod össze az elemeket, és az eredményből egy sokkal valósabb, és általában meglepő listát kapsz. A webapp elérhető `itt <http://www.miklosdanka.com/preference-matrix>`_.
+* MaMuT daloskönyv. A MaMuT nyári matektáborban az egyik táborzáró esemény a tábortűz. Ehhez mindig papíron osztottuk a szövegkönyveket, de ennek sok hátránya volt: sok papírt pazarolt, nehéz volt frissíteni a tartalmat, nehéz volt gyorsan megtalálni a dalokat, nehéz volt sötátben olvasni azt, stb. Úgyhogy Nikházy Laci csinált egy daloskönyv weboldalt, ami offline elérhető volt a gyerekeknek az okostelefonjaikon.
+* Barkochbatörténetek. A matektáborokban barkochbatörténeteket mesélünk. Itt két probléma is felmerül: nem tudom, hogy melyik történetet ismeri már a szoba 2) nem ismerem a barkochbatörténeteket. Úgyhogy készítettem egy appot, amin követhetem a történeteket, a megoldásokat, és azt is, hogy ki melyik történetet ismeri.
+* Tar Zoli: Lajos bácsi állatkertje. Az egyik gyerek a Beluga matekcsoportban észrevette, hogy nagyon sok állatbecenév létezik már, de nem világos, hogy kihez mi tartozik. Úgyhogy csinált egy kis játékot, amiben minden állat és a hozzájuk tartozó emberek szerepelnek.
+* Tábori időpontok. A táborvezetők igyekeznek úgy beosztani a hétvégéket a tábori csoportok között, hogy minél kevesebb gyerek hiányozzon. Ez eddig egy nagyon manuális feladat volt, úgyhogy írtam egy programot, ami az összes esetet végignézi. Ez hasznos a táborvezetőknek, mert gyorsabb, és mert jobb eredményeket kapunk (azaz kevesebb hiányzó lesz).
+* Techtábor. Maga a techtábor is egy ilyen projekt, habár a megoldás nem közvetlenül technológiai, hanem inkább oktatási és szervezési. A megoldandó problémát az előbb beszéltük át: ilyen hasznos készítését nem oktatják.
 
 
 
@@ -99,27 +99,27 @@ Nincsen általános módszer arra, hogy hogyan talál az ember ötletet. Meglep�
 
 Azért néhány tippem mégiscsak van, ami segíthet egy ötlet találásában.
 
-- Van-e valami, amit te magad hasznosnak találnál? Valami, amit te is szívesen használnál.
-- Van-e valami, ami valaki másnak segítene?
-- Van-e valami téma vagy eredmény ami téged nagyon érdekel vagy nagyon szórakoztat?
+* Van-e valami, amit te magad hasznosnak találnál? Valami, amit te is szívesen használnál.
+* Van-e valami, ami valaki másnak segítene?
+* Van-e valami téma vagy eredmény ami téged nagyon érdekel vagy nagyon szórakoztat?
 
-    - Például: Egy barátomat nagyon érdekelte, hogy a két kupac kavicsos játékban mik a nyerő állások különböző esetekben: pl. ha maximum 4 kavicsot lehet egyszerre elvenni, vagy ha három kupac kavics van. Ezért írt egy programot, ami nemcsak kiszámolja ezeket a nyerő helyzeteket, hanem kis is rajzolja őket - és nagyon szép eredményeket talált. Itt meg is nézheted néhány ábráját: https://github.com/patrickszmucer/cubes
+  * Például: Egy barátomat nagyon érdekelte, hogy a két kupac kavicsos játékban mik a nyerő állások különböző esetekben: pl. ha maximum 4 kavicsot lehet egyszerre elvenni, vagy ha három kupac kavics van. Ezért írt egy programot, ami nemcsak kiszámolja ezeket a nyerő helyzeteket, hanem kis is rajzolja őket - és nagyon szép eredményeket talált. Itt meg is nézheted néhány ábráját: https://github.com/patrickszmucer/cubes
 
 Egyéb tippek.
 
-- Amikor ötletelsz, ne dobj el ötleteket azért, mert nem tudod, hogy hogyan programozd le. Tartsd meg az ötletet, írd meg, és segítek megmondani, hogy hogyan tudod leprogramozni.
-- Az ötletek sajnos nem kérésre jönnek. Érdemesebb valamilyen huzamosabb időtartam alatt, páldául egy héten keresztül újra és újra elgondolkodni; illetve fontos nyitva tartani a szemünket, és észrevenni, ha egy új lehetőség vagy ötlet jön elő.
-- Nem attól jó egy projekt, hogy az ötletét te találtad ki, hogy egyedül találtad-e ki, vagy hogy teljesen eredeti-e. Az ötletek nem így működnek. A lényeg az, hogy valami megvalósult. Hogy az hogyan jött létre, ki adott hozzá ötleteket, ki vett részt a leprogramozásában stb., az már csak a megvalósítás részlete.
+* Amikor ötletelsz, ne dobj el ötleteket azért, mert nem tudod, hogy hogyan programozd le. Tartsd meg az ötletet, írd meg, és segítek megmondani, hogy hogyan tudod leprogramozni.
+* Az ötletek sajnos nem kérésre jönnek. Érdemesebb valamilyen huzamosabb időtartam alatt, páldául egy héten keresztül újra és újra elgondolkodni; illetve fontos nyitva tartani a szemünket, és észrevenni, ha egy új lehetőség vagy ötlet jön elő.
+* Nem attól jó egy projekt, hogy az ötletét te találtad ki, hogy egyedül találtad-e ki, vagy hogy teljesen eredeti-e. Az ötletek nem így működnek. A lényeg az, hogy valami megvalósult. Hogy az hogyan jött létre, ki adott hozzá ötleteket, ki vett részt a leprogramozásában stb., az már csak a megvalósítás részlete.
 
-Több ötletem is van. Hogyan válasszak?
+**Több ötletem is van. Hogyan válasszak?**
 
 Ez rajtad múlik! Én a következő kérdések alapján döntenék:
 
-- Mennyire találod te magad érdekesnek a projektet?
-- Mennyire hasznos az eredménye?
-- Mennyire új az eredménye? (Más programmal is meg lehetne csinálni ugyanezt?)
-- Mennyit tanulsz a projektből?
-- Belefér az évbe?
+* Mennyire találod te magad érdekesnek a projektet?
+* Mennyire hasznos az eredménye?
+* Mennyire új az eredménye? (Más programmal is meg lehetne csinálni ugyanezt?)
+* Mennyit tanulsz a projektből?
+* Belefér az évbe?
 
 
 
