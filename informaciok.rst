@@ -43,3 +43,8 @@ Időpontok és helyszínek
     * **Helyszín:** még nem eldöntött
 
 
+
+Képek
+------------------------
+
+* `1. alkalom <https://photos.google.com/share/AF1QipM9G_jVAO4cJhkNzIja6xgFz1vx1jM2qqQy1LfQgb6U2teIW04ikBUU8lZ96iBkxQ?key=TlM0cnV4bWJZbmdqaVpwWW04bWF6SVY5Y2YwWnZR>`_
