@@ -6,22 +6,12 @@
 Techtábor
 ==========================================
 
-Táborvezetők:
-
-* Szűcs Gábor
-* Danka Miklós
-
-Mentorok:
-
-* Csenger Géza
-* Czeller Ildikó
-* Eisenberger András
-* Juhász Péter
-* Nikházy László
-
-A csoport email címe: **ago-techtabor-almasderes [AT] googlegroups.com**
+.. image:: resources/kep-2016-oktober.jpg
+   :width: 100 %
+   :align: center
 
 Contents:
+--------------------
 
 .. toctree::
    :maxdepth: 1
