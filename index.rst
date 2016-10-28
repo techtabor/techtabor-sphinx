@@ -18,7 +18,7 @@ Contents:
 
    informaciok
    projektvalasztas
-   projekttervezes
+   git
    weblap-szerkesztes
 
 
