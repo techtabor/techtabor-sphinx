@@ -14,6 +14,7 @@ Kód hozzáadása a Slack Techbothoz
 #. Menj bele a mappába: ``cd techbot``
 #. Csinálj egy új branchet: ``git checkout -b feature/<branch neve>``
 #. Most írd át azt a kódrészletet, amit szeretnél
+#. Teszteld lokálban a ``bin/hubot`` paranccsal. Iterálj, amíg úgy működik, ahogyan szeretnéd.
 #. Ha új fájlt készítettél, trackeld az új fájlt: ``git add .``
 #. Mentsd el a kódot: ``git commit``
 #. Töltsd fel a kódot: ``git push origin feature/<branch neve>``
