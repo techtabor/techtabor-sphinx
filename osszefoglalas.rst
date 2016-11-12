@@ -10,10 +10,10 @@ Tartalom
 ~~~~~~~~~~~~~~~~~~~~~~~~
 * :doc:`projektvalasztas`
 * Projekt brainstorming
-* Code structure dojo: `Tennis Refactoring Kata<https://github.com/techtabor/Tennis-Refactoring-Kata>`_
-* Chrome extensions gyakorlat: `Getting Started Guide<https://developer.chrome.com/extensions/getstarted>`_
-* Node.js gyakorlat: `Todo App<https://github.com/techtabor/todo-app-nodejs>`_
-* Python gyakorlat: `Snakify<https://snakify.org/>`_
+* Code structure dojo: `Tennis Refactoring Kata <https://github.com/techtabor/Tennis-Refactoring-Kata>`_
+* Chrome extensions gyakorlat: `Getting Started Guide <https://developer.chrome.com/extensions/getstarted>`_
+* Node.js gyakorlat: `Todo App <https://github.com/techtabor/todo-app-nodejs>`_
+* Python gyakorlat: `Snakify <https://snakify.org/>`_
 
 Házi feladatok
 ~~~~~~~~~~~~~~~~~~~~~~~~
