@@ -180,6 +180,8 @@ Ezek ellen persze lehet védekezni, és ezért ez manapság már nem fordul elő
 Továbbiak
 ------------------------
 
+Fontos (minimum)
+~~~~~~~~~~~~~~~~~~~~~~~~
 Front-end
 
 Back-end
@@ -194,4 +196,11 @@ Response
 
 Chrome Network Tab
 
+Továbbiak (stretch, ha belefér)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
+Sütik
+
+POST
+
+HTTPS
