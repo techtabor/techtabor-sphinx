@@ -17,7 +17,9 @@ Contents:
    :maxdepth: 1
 
    informaciok
+   osszefoglalas
    projektvalasztas
+   projekttervezes
    git
    weblap-szerkesztes
 
