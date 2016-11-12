@@ -21,8 +21,8 @@ Mentorok:
 Közös eszközök
 ------------------------
 
-* Email lista: ago-techtabor-almasderes@googlegroups.com
-* Slack: `<https://techtabor.slack.com/messages/kerdesek/>`_
+* Email lista: ago-techtabor-almasderes[AT]googlegroups.com
+* Slack: `<https://techtabor.slack.com/messages/almasderes/>`_
 * Github: `<https://github.com/techtabor>`_
 * Google Drive: `<https://drive.google.com/drive/folders/0B4CEjXzOjZEldlBZaUtORXh6dDg>`_
 
@@ -40,7 +40,7 @@ Időpontok és helyszínek
 * **2. alkalom**
 
     * **Időpont:** november 14., hétfő
-    * **Helyszín:** még nem eldöntött
+    * **Helyszín:** Logiscool, 1021 Budapest, Tárogató út 4.
 
 
 
