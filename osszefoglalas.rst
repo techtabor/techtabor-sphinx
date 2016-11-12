@@ -30,7 +30,7 @@ Tartalom
 ~~~~~~~~~~~~~~~~~~~~~~~~
 * :doc:`projekttervezes`
 * Git 101 dojo: TBC
-* Hálózatok gyakorlat: TBC
+* :doc:`halozatok`
 * Projektmunka a mentorokkal
 
 Házi feladatok

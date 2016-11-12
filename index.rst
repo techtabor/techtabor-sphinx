@@ -21,6 +21,7 @@ Contents:
    projektvalasztas
    projekttervezes
    git
+   halozatok
    weblap-szerkesztes
 
 
