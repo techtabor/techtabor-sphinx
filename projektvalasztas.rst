@@ -1,4 +1,4 @@
-Projekt Választás
+Problémakeresés, megoldás, implementáció
 ==========================================
 
 
@@ -11,7 +11,7 @@ Amikor a technológiáról beszélünk, legtöbben csak a konkrét programozást
 Nézzünk egy konkrét projektet, pl. a Facebookot. Ha teljességében akarjuk megérteni, akkor három részre bonthatjuk:
 
 #. *Implementáció - szoftvertervezés ("software engineering") és projektvezetés ("project management").*  Amikor már világos, hogy mit akarunk megépíteni, akkor a megvalósítás a cél. Tudjuk, hogy news feedet szeretnénk, photo tagginget és üzeneteket - de hogyan implementálunk egy olyan webappot, ami képes felhasználók százmillióit kiszolgálni egyszerre, elképesztő mennyiségű adatot feldolgozni, és ami az év egyetlen percére sem válik elérhetetlenné, a világ semelyik pontján? Ez a technológiai rész. A másik egy szervezési kérdés: hogyan találunk elég és megfelelő embert hogy megvalósítsuk a tervünket, és hogyan hajtunk végre egy hosszú és bonyolult tervet?
-#. *Megoldás - terméktervezés ("product design").* Ehhez azonban tudni kell, hogy mit akarunk építeni. Tegyük fel, hogy szociális kapcsolatokra építő, azokat segítő alkalmazást szeretnénk készíteni. Mit építsünk? Legyen egy levelező app? Legyenek csak képek? Esetleg a képek tűnjenek el néhány másodperc után? Legyen news feed? Legyen mindenkinek publikus, vagy legyen privát? Követni lehessen másokat, vagy barátokat hozzáadni, vagy valami más? Hogyan döntjük el, hogy melyik megoldást választjuk?
+#. *Megoldás - terméktervezés ("product design").* Ehhez azonban tudni kell, hogy mit akarunk építeni. Tegyük fel, hogy szociális kapcsolatokra építő, azokat segítő alkalmazást szeretnénk készíteni. Mit építsünk? Legyen egy levelező app? Legyenek csak képek? Esetleg a képek tűnjenek el néhány másodperc után? Legyen news feed? Legyen mindenkinek publikus, vagy legyen privát? Követni lehessen másokat, vagy barátokat hozzáadni, vagy valami más? Hogyan döntjük el, hogy melyik megoldást választjuk? Hogyan fordítjuk le a megoldást technológiára?
 #. *Probléma.* Végül ami ezt is megelőzi, az a probléma beazonosítása. Hogyan vesszük észre egyáltalán, hogy van igény egy szociális alkalmazásra? 
 
 Tehát a technológia *egy eszköz.* Sajnos a mai világban szinte kizárólag végrehajtásra tanítják az embereket: valaki megmondja neked a tutit, te pedig azt leprogramozod. Szinte minden cég is így működik. És habár a magas minőségű implementáció valóban nagyon fontos, az odáig vezető út - egy fontos probléma beazonosítása és arra a megfelelő válasz kitalálása - talán még fontosabb - és mindenképpen kevesebben csinálják. Ezt a részt nem tanítják, és főleg nem gyerekeknek.
@@ -48,11 +48,11 @@ Az egyik legjobb módja a megfelelő intuíció kifejlesztésének az, ha utána
 
 Az egyik példám a Codecademy. Sims nem tudott programozni, és nem bírt a könyvekből megtanulni. Ehelyett a projektalapú, valós programozás sokkal jobban működött neki. Úgyhogy megoldotta a saját problémáját, és csinált egy weboldalt, amiben konkrét feladatokat megoldva programozhatott. Az igazán fontos észrevétel az, hogy ez nem csak számára volt probléma, hanem sok-sok másik embernek is: úgyhogy a weboldalával százezrek/milliók problémáját oldotta meg. Így lett egy sikeres projektje.
 
-Ő tehát észrevette a saját problmáját, rájött, hogy ez másoknak is probléma, és talált egy jól működő megoldást.
+Ő tehát észrevette a saját problémáját, rájött, hogy ez másoknak is probléma, és talált egy jól működő megoldást.
 
 .. note:: Most nézz utána a kedvenc cégednek vagy projektednek: hogyan kezdődött? Példák: Google, Facebook, Scratch, Tesla, SpaceX, Palantir, Snapchat, Prezi, Apple (iPod, iPhone), Wiki, Quora, PayPal. Próbáld meg szétválasztani a problémát, a megoldást, és a megvalósítást!
 
-Egy másik példa a Tesla. Elon Musk egy ismert, mindenkit érintő problémát vett elő: a globális felmelegedést és a potenciális katasztrófát amit a fosszilis üzemanyagok felélése hozna. Erre talált ki egy kreatív megoldást: csökkentsük drasztikusan a fosszilis üzemanyagok felhasználását úgy, hogy elektromos autókra állunk át az *egész világon.* Ez persze egy méretes feladat, úgyhogy egy sok lépésből álló tervet dolgozott ki: `ezen az oldalon <http://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html>`_ elolvashatjátok a részleteket - nagyon izgalmas és tanulágos. A rövid verzió az, hogy luxus elektromos autókat kezdett gyártani, hogy az így befolyó összegbúl felgyorsíthassa az elektromos motorok és elemek kutatását, és egyre olcsóbban adhasson el autókat. Végül a találmányait ingyenesen elérhetővé tette, hogy az összes autós cég átállhasson az elektromos autók gyártására. Egyelőre jól halad :)
+Egy másik példa a Tesla. Elon Musk egy ismert, mindenkit érintő problémát vett elő: a globális felmelegedést és a potenciális katasztrófát amit a fosszilis üzemanyagok felélése hozna. Erre talált ki egy kreatív megoldást: csökkentsük drasztikusan a fosszilis üzemanyagok felhasználását úgy, hogy elektromos autókra állunk át az *egész világon.* Ez persze egy méretes feladat, úgyhogy egy sok lépésből álló tervet dolgozott ki: `ezen az oldalon <http://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html>`_ elolvashatjátok a részleteket - nagyon izgalmas és tanulágos. A rövid verzió az, hogy luxus elektromos autókat kezdett gyártani, hogy az így befolyó összegből felgyorsíthassa az elektromos motorok és elemek kutatását, és egyre olcsóbban adhasson el autókat. Végül a találmányait ingyenesen elérhetővé tette, hogy az összes autós cég átállhasson az elektromos autók gyártására. Egyelőre jól halad :)
 
 
 
@@ -61,7 +61,7 @@ Találmányok
 
 Ezek a projektek gyakorlatilag *találmányok.* Ezért aztán ezek is jó példákat mutatnak a probléma/megoldás/megvalósítás hármasra.
 
-.. note:: Válassz egy teljesen hétköznapinak tűnő dolgot, és nézz utána annak. Példátul: golyóstoll, papír, futószalag, telefon.
+.. note:: Válassz egy teljesen hétköznapinak tűnő dolgot, és nézz utána annak. Például: golyóstoll, papír, futószalag, telefon.
 
 
 
@@ -72,11 +72,22 @@ Mielőtt mi is belekezdenénk a problémakeresésbe, mégegy fontos dolgot meg k
 
 Sokszor az emberek az alapján választanak projektet, hogy mi menő, vagy érdekes, vagy szórakoztató. Ezek persze szempontok, de egy fontos dimenzió amit ritkábban vesznek figyelembe az emberek az a hasznosság. Megoldasz-e valami problémát, és ha igen, akkor mennyire komolyat, mennyi embernek, mekkora hatással? Ez a nehéz része a projektek értékelésének, illetve ez egy nagyon fontos kritériuma minden valamirevaló projektnek, ezért ezt fogjuk gyakorolni. Erre van szükség ha valami maradandót és hasznosat akarsz csinálni.
 
-.. note:: Melyik mennyire tűnik hasznosnak? Melyikben mi az érték?
+.. note:: A fenti projektek/cégek közül melyik mennyire tűnik hasznosnak? Melyikben mi az érték?
 
 Fontos, hogy a hasznosságot ne keverjétek össze a pénzzé tevéssel ("monetisation").
 
 .. note:: Melyik projekt hogyan teszi pénzzé a generált értéket?
+
+
+
+Projektválasztási szempontok
+------------------------
+
+Összességében tehát a következő értékelési pontokat vedd figyelembe a választáskor:
+
+#. Legyen a projekt számodra kifejezetten izgalmas/vonzó.
+#. Legyen a projekt hasznos/újszerű (vagy neked vagy a környezetednek).
+#. Legyen a projekt megvalósítható.
 
 
 
@@ -111,9 +122,7 @@ Egyéb tippek.
 * Az ötletek sajnos nem kérésre jönnek. Érdemesebb valamilyen huzamosabb időtartam alatt, páldául egy héten keresztül újra és újra elgondolkodni; illetve fontos nyitva tartani a szemünket, és észrevenni, ha egy új lehetőség vagy ötlet jön elő.
 * Nem attól jó egy projekt, hogy az ötletét te találtad ki, hogy egyedül találtad-e ki, vagy hogy teljesen eredeti-e. Az ötletek nem így működnek. A lényeg az, hogy valami megvalósult. Hogy az hogyan jött létre, ki adott hozzá ötleteket, ki vett részt a leprogramozásában stb., az már csak a megvalósítás részlete.
 
-**Több ötletem is van. Hogyan válasszak?**
-
-Ez rajtad múlik! Én a következő kérdések alapján döntenék:
+**Több ötletem is van. Hogyan válasszak?** Ez rajtad múlik! Én a következő kérdések alapján döntenék:
 
 * Mennyire találod te magad érdekesnek a projektet?
 * Mennyire hasznos az eredménye?
