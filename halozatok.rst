@@ -12,7 +12,7 @@ Az interneten már `több mint 1 milliárd <http://www.internetlivestats.com/tot
    :width: 100 %
    :align: center
 
-*Az internet térképe (forrás: `<http://thecreatorsproject.vice.com/blog/what-the-internet-looks-like>`_)*
+*Az internet térképe* (`forrás <http://thecreatorsproject.vice.com/blog/what-the-internet-looks-like>`_)
 
 
 
@@ -51,7 +51,7 @@ Nézzük először, mi is történik amikor telefonálunk valakinek:
 * Ennek van egy azonosítója, a telefonszám: +36 20 744 2372
 * De mi nem tudjuk a telefonszámot - mi csak Péter nevét tudjuk. Ezért elővesszük a kontaktlistánkat, és abból kikeressük Péter nevét.
 
-Az internet is hasonlóan működik: el szeretnénk érni egy szervert, annak van egy azonosítója (az IP-cím), de mi csak a webcímét ismerjük. Az internetnek is megvan a saját "telefonkönyve", amit *`Domain Name Systemnek (DNS) <https://en.wikipedia.org/wiki/Domain_Name_System>`_* hívnak. Azonban egyetlen "telefonkönyv" helyett ez egy hatalmas, sok szerver között megosztott rendszer.
+Az internet is hasonlóan működik: el szeretnénk érni egy szervert, annak van egy azonosítója (az IP-cím), de mi csak a webcímét ismerjük. Az internetnek is megvan a saját "telefonkönyve", amit `Domain Name Systemnek (DNS) <https://en.wikipedia.org/wiki/Domain_Name_System>`_ hívnak. Azonban egyetlen "telefonkönyv" helyett ez egy hatalmas, sok szerver között megosztott rendszer.
 
 
 
@@ -80,7 +80,7 @@ A webcímek is hierarchikusak::
 
 Ebben az esetben a cambridge-i Computer Laboratory webcíme öt részből áll: a ``uk`` rész az Egyesült Királyságot jelöli, az ``ac`` rész az oktatási weblapokat ("academic"), a ``cam`` rész Cambridge rövidítése, a ``cl`` rész a Computer Lab rövidítése, végül a ``www`` rész a publikus weblapra utal.
 
-A DNS ezt a hierarchiát használja ki. Az egyetlen világtérképnek megfelelően van egy *`root name server <https://en.wikipedia.org/wiki/Root_name_server>`_* (pontosabban ennek van több száz másolata). Ezeknek az IP-címe ismert minden böngésző számára, úgyhogy ettől a böngészőm először megkérdezi, hogy hol van az a name server, ami az ``uk`` címekért felel. Amikor ennek megvan az IP-címe, a böngészőm most az ``ac`` name serverére kérdez rá. Így megy ez addig, amíg meg nem kapjuk a webcímnek megfelelő pontos IP-címet.
+A DNS ezt a hierarchiát használja ki. Az egyetlen világtérképnek megfelelően van egy `root name server <https://en.wikipedia.org/wiki/Root_name_server>`_ (pontosabban ennek van több száz másolata). Ezeknek az IP-címe ismert minden böngésző számára, úgyhogy ettől a böngészőm először megkérdezi, hogy hol van az a name server, ami az ``uk`` címekért felel. Amikor ennek megvan az IP-címe, a böngészőm most az ``ac`` name serverére kérdez rá. Így megy ez addig, amíg meg nem kapjuk a webcímnek megfelelő pontos IP-címet.
 
 .. image:: resources/halozatok-dns-resolution.png
    :width: 100 %
