@@ -177,30 +177,60 @@ Ezek ellen persze lehet védekezni, és ezért ez manapság már nem fordul elő
 
 
 
+Kommunikáció és lapbetöltés, HTTP
+------------------------
+
+Most már értjük, hogy hogyan lép a böngésző kapcsolatba a szerverrel. De honnan tudja, hogy mit jelenítsen meg?
+
+Ahhoz, hogy a két számítógép sikeresen kommunikáljon egymással, tudniuk kell, hogy milyen kérdéseket és válaszokat várhatnak egymástól. Ezt az úgynevezett *protokollok* határozzák meg. A weblapok betöltéséhez a *HTTP* (Hypertext Transfer Protocol) és a *HTTPS* (HTTP Secure) protokollokat használják a böngészők.
+
+Íme egy példa egy ilyen kommunikációra. A következő *request* lekéri az ``index.html`` lapot a ``www.example.com`` címről::
+
+  GET /index.html HTTP/1.1
+  Host: www.example.com
+
+Ez a *request header,*, ami a lekérési metódust (``GET``) tartalmazza, a lekért lapot (``/index.html``), a protokoll pontos verzióját (``HTTP/1.1``) és a célzott hostot.
+
+Erre pedig a szerver küldi a *response-t*, ami tartalmazza a kért információt, a megjelenítendő HTML kódot::
+
+  HTTP/1.1 200 OK
+  Date: Mon, 23 May 2005 22:38:34 GMT
+  Content-Type: text/html; charset=UTF-8
+  Content-Encoding: UTF-8
+  Content-Length: 138
+  Last-Modified: Wed, 08 Jan 2003 23:11:55 GMT
+  Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
+  ETag: "3f80f-1b6-3e1cb03b"
+  Accept-Ranges: bytes
+  Connection: close
+  
+  <html>
+  <head>
+    <title>An Example Page</title>
+  </head>
+  <body>
+    Hello World, this is a very simple HTML document.
+  </body>
+  </html>
+
+Itt a *response header* megint tartalmazza a protokollt, de egy egyszerű válasz kódot it (``200 OK``), a dátumot, a válasz típusát stb. A *response body* pedig a konkrét HTML-t tartalmazza.
+
+Ez persze egy nagyon egyszerű példa: egy bonyolultabb weblapnál a HTML után le kell tölteni a stílusfájlokat, a javascriptet, és a képeket is. Ezt meg is tudod nézni ha megnyitod a böngésződ Web Developer Console-jának a Network tabjét és frissíted a weboldalt.
+
+.. note:: Feladat: Amikor a Facebookot betöltöd, csak az alapinformációk jelennek meg. Ahhoz, hogy megtudd, hogy egy posztot kik lájkoltak, a böngészőnek új lekéréseket kell küldeni a Facebook szervereknek. Találd meg a Network taben a like információ requestjét és response-át! Mit látsz a válaszban?
+
+
+
+Webappok
+------------------------
+
+Most már világosabb lesz, hogy hogyan is működnek a webappok, pl. a Facebook. A *frontend* az az app, ami a böngésződben fut: ez HTML, CSS, és JavaScript keveréke. Amikor a frontend valami információt szeretne betölteni, pl. mert ráklikkeltél az üzenetek gombra, akkor nem tölti le az egész weboldalt újra, hanem csak az üzenetek megjelenítéséhez szükséges információt tölti be - mégpedig úgy, hogy küld egy requestet a *backend*-nek.
+
+A backend itt a webszervert takarja. Ez egy folyamatosan futó program, aminek annyi a dolga, hogy az érkező requesteket fogadja, feldolgozza, majd arra response-okat küldjön. A feldolgozás persze lehet bonyolult: a Facebook esetében ellenőrizni kell, hogy van jogod az adott üzenetek olvasásához, az adatbázisokból be kell tölteni az információt, majd azt a megfelelő formátumba kell tenni a visszaküldéshez.
+
+
+
 Továbbiak
 ------------------------
 
-Fontos (minimum)
-~~~~~~~~~~~~~~~~~~~~~~~~
-Front-end
-
-Back-end
-
-HTTP
-
-GET
-
-Request header
-
-Response
-
-Chrome Network Tab
-
-Továbbiak (stretch, ha belefér)
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Sütik
-
-POST
-
-HTTPS
+A későbbiekben lesz még szó a portokról, a POST requestekről, és a sütikről (cookies) is.
