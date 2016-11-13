@@ -217,7 +217,7 @@ Itt a *response header* megint tartalmazza a protokollt, de egy egyszerű válas
 
 Ez persze egy nagyon egyszerű példa: egy bonyolultabb weblapnál a HTML után le kell tölteni a stílusfájlokat, a javascriptet, és a képeket is. Ezt meg is tudod nézni ha megnyitod a böngésződ Web Developer Console-jának a Network tabjét és frissíted a weboldalt.
 
-.. note:: Feladat: Amikor a Facebookot betöltöd, csak az alapinformációk jelennek meg. Ahhoz, hogy megtudd, hogy egy posztot kik lájkoltak, a böngészőnek új lekéréseket kell küldeni a Facebook szervereknek. Találd meg a Network taben a like információ requestjét és response-át! Mit látsz a válaszban?
+.. note:: Amikor a Facebookot betöltöd, csak az alapinformációk jelennek meg. Ahhoz, hogy megtudd, hogy egy posztot kik lájkoltak, a böngészőnek új lekéréseket kell küldeni a Facebook szervereknek. Találd meg a Network taben a like információ requestjét és response-át! Mit látsz a válaszban?
 
 
 
