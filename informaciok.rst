@@ -48,3 +48,4 @@ Képek
 ------------------------
 
 * `1. alkalom <https://photos.google.com/share/AF1QipM9G_jVAO4cJhkNzIja6xgFz1vx1jM2qqQy1LfQgb6U2teIW04ikBUU8lZ96iBkxQ?key=TlM0cnV4bWJZbmdqaVpwWW04bWF6SVY5Y2YwWnZR>`_
+* `2. alkalom <https://goo.gl/photos/iz8TzsQcVVY4kW3k6>`_
