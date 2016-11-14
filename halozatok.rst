@@ -226,7 +226,7 @@ Webappok
 
 Most már világosabb lesz, hogy hogyan is működnek a webappok, pl. a Facebook. A *frontend* az az app, ami a böngésződben fut: ez HTML, CSS, és JavaScript keveréke. Amikor a frontend valami információt szeretne betölteni, pl. mert ráklikkeltél az üzenetek gombra, akkor nem tölti le az egész weboldalt újra, hanem csak az üzenetek megjelenítéséhez szükséges információt tölti be - mégpedig úgy, hogy küld egy requestet a *backend*-nek.
 
-A backend itt a webszervert takarja. Ez egy folyamatosan futó program, aminek annyi a dolga, hogy az érkező requesteket fogadja, feldolgozza, majd arra response-okat küldjön. A feldolgozás persze lehet bonyolult: a Facebook esetében ellenőrizni kell, hogy van jogod az adott üzenetek olvasásához, az adatbázisokból be kell tölteni az információt, majd azt a megfelelő formátumba kell tenni a visszaküldéshez.
+A backend itt a webszervert takarja. Ez egy folyamatosan futó program, aminek annyi a dolga, hogy az érkező requesteket fogadja, feldolgozza, majd arra response-okat küldjön. A feldolgozás persze lehet bonyolult: a Facebook esetében ellenőrizni kell, hogy van jogod az adott üzenetek olvasásához, az adatbázisokból be kell tölteni az információt, majd azt a megfelelő formátumba kell tenni a visszaküldéshez. A webszervert tipikusan Javában, Pythonban (pl. Django), illetve ritkábban JavaScriptben (pl. node.js) és régebben PHP-ban írják.
 
 
 
