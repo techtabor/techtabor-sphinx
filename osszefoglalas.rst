@@ -29,12 +29,12 @@ Házi feladatok
 Tartalom
 ~~~~~~~~~~~~~~~~~~~~~~~~
 * :doc:`projekttervezes`
-* Git 101 dojo: TBC
+* Git 101 dojo: `Git tutorial <https://docs.google.com/document/d/1PGmFqHqn8UEQxr0cmmB16k6t-W6l1m74jVfhP5U_Sjc/edit>`_
 * :doc:`halozatok`
 * Projektmunka a mentorokkal
 
 Házi feladatok
 ~~~~~~~~~~~~~~~~~~~~~~~~
 #. Készüljetek el legalább az első milestone-nal decemberre
-#. Készítsetek egy maximum 2 perces demo videót arról, hogy hogy áll a projektetek
+#. Készítsetek egy maximum 1-3 perces bemutatót (pl. demó videót) arról, hogy hogy áll a projektetek
 #. Készüljetek konkrét kérdésekkel és problémákkal, amiket a mentorral meg tudtok beszélni
