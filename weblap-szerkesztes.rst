@@ -19,17 +19,7 @@ A Sphinxet csak akkor kell telepítened, ha a saját gépeden is szeretnéd tudn
 Forráskód
 ~~~~~~~~~
 
-#. Ha nincs még pubic keyed a ``~/.ssh`` mappában, akkor generálj egyet az ``ssh-keygen -t rsa`` utasítással. (Bővebben `itt <https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2>`_ olvashatsz róla)
-#. Küldd el a public keyed (``<valami>.pub``) Danka Mikinek, és várd meg amíg válaszol
-#. A ``.ssh/config`` fájlba írd be a következő részt::
-
-    Host miki-git
-      User git
-      Hostname 5.101.107.150
-      Port 22022
-      IdentityFile ~/.ssh/<a te private key fajlod>
-
-#. Ezek után letöltheted a repositoryt: ``git clone miki-git:techtabor``
+A forrás ``a Githubon <https://github.com/techtabor/techtabor-sphinx>`` található. Kérj hozzáférést a repositoryhoz.
 
 Szerkesztés és feltöltés
 ------------------------
@@ -44,7 +34,7 @@ A lokális dokumentáció-generáláshoz:
 Feltöltés
 ~~~~~~~~~
 
-Amikor a ``git commit`` paranccsal elmentesz valamit, majd a ``git push`` paranccsal feltöltöd azt, egy "git hook" automatikusan legenerálja és publikálja a weboldalt.
+Amikor a ``git commit`` paranccsal elmentesz valamit, majd a ``git push`` paranccsal feltöltöd azt, a Netlify automatikusan legenerálja és publikálja a weboldalt.
 
-A weboldal a `www.miklosdanka.com/techtabor <http://www.miklosdanka.com/techtabor>`_ oldalon érhető el ezen szöveg írásakor (2016-09-03).
+A weboldal a `techtabor.miklosdanka.com <https://techtabor.miklosdanka.com>`_ oldalon érhető el ezen szöveg írásakor (2018-09-24).
 
