@@ -19,7 +19,7 @@ A Sphinxet csak akkor kell telepítened, ha a saját gépeden is szeretnéd tudn
 Forráskód
 ~~~~~~~~~
 
-A forrás ``a Githubon <https://github.com/techtabor/techtabor-sphinx>`` található. Kérj hozzáférést a repositoryhoz.
+A forrás `a Githubon <https://github.com/techtabor/techtabor-sphinx>`_ található. Kérj hozzáférést a repositoryhoz.
 
 Szerkesztés és feltöltés
 ------------------------
