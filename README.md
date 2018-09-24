@@ -11,6 +11,6 @@ Install the Sphinx Theme: https://github.com/snide/sphinx_rtd_theme
 
 # Pushing to the public instance
 
-When you commit changes and push them, a git hook will automatically build and publish the new version of the site.
+When you commit changes and push them, a git hook will automatically build and publish the new version of the site via Netlify.
 
-The site is reachable at www.miklosdanka.com/techtabor at the time of writing (2016-09-03).
+The site is reachable at https://techtabor.miklosdanka.com at the time of writing (2018-09-24).
